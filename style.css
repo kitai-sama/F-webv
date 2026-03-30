@@ -1,0 +1,149 @@
+/* Font và nền chung */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff5f5;
+    text-align: center; 
+}
+/* giới hạn chiều rộng và căn giữa */
+.container {
+    max-width: 1000px;  
+    margin: 0 auto;     
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #d60000, #ff2e2e);
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+/* Thanh menu */
+nav {
+    background: #0a8f3c; 
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 12px;
+    padding: 12px 22px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+nav a:hover {
+    color: yellow;
+}
+/* Nội dung */
+.section {
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Tiêu đề */
+h1, h2 {
+    text-align: center;
+}
+
+/* Danh sách */
+ul {
+    list-style-position: inside;
+    padding: 0;
+    text-align: center;
+}
+
+/* Ảnh */
+img {
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
+    border-radius: 12px;
+}
+
+/* Video */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+/* Nút bấm */
+.button {
+    background: #d60000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #a80000;
+}
+
+/* Hover: nổi lên + đậm + sáng */
+nav a:hover {
+    background: #ff3333;
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Nút đang ở trang hiện tại */
+nav a.active {
+    background: gold;
+    color: #b30000;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+    transform: scale(1.15);
+}
+
+/* Form */
+form {
+    text-align: center;
+}
+
+input, textarea {
+    width: 60%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+    background: #d60000;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+.img-center {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+.img-left {
+    width: 300px;
+    height: auto;
+    display: left;
+    margin: 20px auto;
+}
